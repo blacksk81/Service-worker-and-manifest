@@ -1,0 +1,29 @@
+{
+  "short_name": "lbernal",
+  "name": "luis alberto",
+  "background_color": "#FFC80A",
+  "theme_color": "#FFC80A",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/logo_white48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/logo_white96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/logo_white196x196.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?homescreen=1",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3"
+}
