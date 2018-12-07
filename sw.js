@@ -1,3 +1,12 @@
+/*
+Name_ luis bernal
+web_ lbernal.com.ve
+mail_ blacksk81@gmail.com
+phone_peru_ +51 921966985
+Asossiate_ gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e
+*/
+
+
 var nameapp = 'AppService_woker'     // Identificador de esta aplicación (esto debe ser coherente en cada actualización de caché)
 var versions = 'version_01'              // Versión de la memoria caché fuera de línea (cambie este valor cada vez que desee actualizar la memoria caché)
 var CACHE_NAME = nameapp + versions
@@ -6,8 +15,6 @@ var URLS = [                            // Agregue la URL que desea almacenar en
   './index.html',
   './sw.js'            // agregar ruta a esos archivos aquí
 ]
-
-//https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e
 
 // Responder con recursos en caché
 self.addEventListener('fetch', function (e) {
